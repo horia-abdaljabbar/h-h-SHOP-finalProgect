@@ -1,0 +1,38 @@
+.showMore{
+    color: rgb(197, 158, 79);
+    cursor: pointer;
+}
+img{
+    aspect-ratio: 80/70;
+}
+
+.price{
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    font-size: 22px;
+    color: gray;
+
+}
+.content{
+    height: 38vh;
+}
+.arrowIcon{
+width:20px ;
+}
+
+.finalPrice{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.discount{
+    font-size: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#ff851b ;
+    color: white;
+    
+
+}

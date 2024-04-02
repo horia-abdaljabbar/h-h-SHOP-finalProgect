@@ -1,0 +1,23 @@
+.detailsHome{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+padding: 40px 20px;
+}
+
+
+.card svg{
+height:30px;
+width:30px;
+border-radius: 50%;
+background-color: rgb(178, 178, 221);
+padding: 8px;
+margin: auto;
+color: #ffff;
+}
+.services{
+    width: fit-content;
+    color: #ff851b;
+}
+

@@ -1,0 +1,27 @@
+.sendCodePara{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color:#020e79 ;
+}
+
+.emailWord{
+    font-size: 23px;
+    color: red;
+    text-transform: capitalize;
+}
+
+.resetPasswordBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: none;
+    padding: 8px;
+    background-color: white;
+    color:#020e79 ;
+    width:40%;
+    margin-right: auto;
+    font-weight: 600;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #ffbf87 , rgb(98, 91, 233));
+}

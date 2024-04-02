@@ -1,0 +1,23 @@
+
+
+  @media screen and (max-width: 992px) {
+
+    .sideBar{
+    top:50px;
+    }
+    
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .sideBar{
+    top:50px;
+    width: 100%;
+    }
+
+   
+    
+  }
+
+
+

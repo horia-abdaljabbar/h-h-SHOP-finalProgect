@@ -1,0 +1,68 @@
+img{
+    width:20%;
+
+}
+
+.decreaseBtn,.increaseBtn,.deleteBtn{
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+.deleteCartBtn{
+    border: none;
+
+}
+.minusIcon,.plusIcon{
+    color: #216191;
+}
+
+.finalCost{
+    font-size: 20px;
+    font-weight:700;
+    
+}
+.deleteBtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.trashIcon{
+    color: #ff851b ;
+}
+
+h4{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.checkout{
+    background-color:#216191 ;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .summary{
+        width:40%;
+    }
+    
+}
+@media screen and (max-width: 789px) {
+    .table{
+        width:60%;
+    }
+    
+}
+
+@media screen and (max-width: 587px) {
+    .table{
+        width:40%;
+    }
+    
+@media screen and (max-width: 490px) {
+    .summary{
+        width:60%;
+    }
+}

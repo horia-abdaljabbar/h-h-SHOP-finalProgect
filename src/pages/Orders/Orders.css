@@ -1,0 +1,14 @@
+.orders {
+    width:fit-content;
+}
+
+.quantity{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #c4bdb6;
+}
+
+.products{
+    margin-bottom: 50px;
+}

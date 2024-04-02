@@ -1,0 +1,78 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.hero .navbar .collapse  .nav-item .nav-link{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+#root .nav{
+  background-color: #fcfbfb;
+  position: sticky;
+  top:0;
+  z-index: 5;
+}
+
+.navbar-nav .nav-link.active {
+  border-bottom: #ff851b 4px solid;
+}
+
+.nav-link {
+  color: rgb(29 26 26 / 65%);
+}
+.navbar-logo{
+  width:85px;
+}
+
+
+.linkBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration-line: none;
+  padding: 30px;
+  background-color: white;
+  color:#020e79 ;
+  width:40%;
+  margin-right: auto;
+  font-weight: 600;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ffbf87 , rgb(98, 91, 233));
+}
+
+.cartIcon{
+  color:#ff851b;
+  
+}
+
+.productsNum{
+  position: absolute;
+  bottom:0;
+  left:25px;
+  text-align: center;
+  width:20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff851b;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  
+    .hero .navbar  {
+    flex-wrap: nowrap;
+  }
+  .hero .navbar .container{
+    gap:10px;
+    width: 100%;
+  }
+  .hero .navbar .collapse  .nav-item .nav-link{
+    width: fit-content;
+    padding: 10px;
+  }
+}

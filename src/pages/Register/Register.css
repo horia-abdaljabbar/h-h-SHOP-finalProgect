@@ -1,0 +1,73 @@
+
+.errorMsg{
+    color: red;
+}
+.registerForm{
+    margin: auto;
+    width:40%;    
+
+}
+
+input[type="text"]{
+    padding: 5px 35px;
+}
+
+input[type="email"]{
+    padding: 5px 35px;
+}
+
+input[type="password"]{
+    padding: 5px 35px;
+}
+
+input[type="file"]{
+    size: 20px;
+width:90%}
+.userName,.email,.password,.imagePart{
+    background-position: 4px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.userName{
+    background-image: url('/searchIcon.svg');
+   
+
+}
+
+.email{
+    background-image: url('/emailIcon.svg');
+}
+
+.password{
+    background-image: url('/passwordIcon.svg');
+}
+
+.imagePart{
+    background-image: url('/imageIcon.svg');
+
+}
+
+
+.haveAccount{
+    text-decoration-line: underline;
+    color:#348fd5;
+    font-size: 13px;
+    }
+
+@media (min-width: 600px) and (max-width: 900px){
+    .registerForm{        
+        width:50%;    
+    }
+}
+
+@media(max-width: 599px){
+    .registerForm{        
+        width:80%;
+    }
+}

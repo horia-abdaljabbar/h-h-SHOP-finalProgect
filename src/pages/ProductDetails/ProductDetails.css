@@ -1,0 +1,25 @@
+.mainImg{
+    width:80%;
+}
+
+.extraImg{
+    width:20%;
+}
+
+.offer{
+    width: fit-content;
+
+}
+.star{
+    width:20px;
+}
+.extraNav .form-select,.search{
+    width: 15%;
+
+}
+.reviewSign{
+    width:100px;
+    height: 50px;
+    
+    
+}

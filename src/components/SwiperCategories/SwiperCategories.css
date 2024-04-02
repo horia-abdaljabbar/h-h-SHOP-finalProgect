@@ -1,0 +1,30 @@
+.sectionTitle{
+    color: #ff851b;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: fit-content;
+}
+
+
+.categoriesSwiper{
+    width:1200px;
+    margin: auto;
+
+}
+
+.swiper-backface-hidden .swiper-slide {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding:40px 50px;
+}
+
+.swiper-backface-hidden .swiper-slide img {
+   aspect-ratio: 80/120;
+   
+}
+
+.section-title{
+text-align: center;
+} 
+ 
